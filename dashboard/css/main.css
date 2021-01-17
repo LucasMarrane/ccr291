@@ -16,6 +16,7 @@ body {
 }
 
 .container {
+    box-sizing: border-box;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -99,15 +100,6 @@ body {
     text-decoration: none;
     color:var(--orange);
     transition: 400ms ease-out;
-<<<<<<< HEAD
-}
-.row.container .footer .usuario:hover {
-    background:var(--orange);
-    color:var(--second-text-color);
-}
-img{
-    width: 40rem;
-=======
 }
 .row.container .footer .usuario:hover {
     background:var(--orange);
@@ -145,5 +137,51 @@ img{
     background:  #264653;
     color: white;
     
->>>>>>> 364a317c70a8a529b3db8a8c8c7e63b6e5eeac66
+}
+
+@media screen and (max-width:600px){
+    .hide-sm{
+        display: none;
+    }
+
+    .row.container .title {       
+        font-size: 4rem;
+       
+    }
+    
+    .row.container .subtitle {       
+        font-size:2rem;
+    }
+    
+    .row.container .body {       
+        font-size: 14px;
+         margin-bottom: 5rem;
+    }
+
+    .group{
+        padding: 0;
+    }
+
+    .row.container .footer{
+        flex-direction: column;        
+    }
+    .row.container .footer .empresa {
+       padding: 20px;
+       font-size: 12px;
+       margin:20px;
+    }
+    .row.container .footer .usuario {
+        margin-top: 60px;
+        padding: 20px;
+        font-size: 12px;
+        margin:20px
+    }
+    .row.container .body .more {        
+        font-size: 12px;
+        
+    }
+    .small{
+        width: 100% !important;
+    }
+ 
 }
