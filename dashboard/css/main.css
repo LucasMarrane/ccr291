@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+:root {
+    --bgcolor: #F1FAEE;
+    --text-color: rgb(24, 24, 24);
+    --second-text-color: #1D3557;
+    --orange: #A8DADC;
+    --yellow: rgb(203, 206, 31);
+    --red: #ef233c;
+}
+
+body {
+    width: 100vw !important;
+    height: 100vh !important;
+    color: var(--text-color);
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: var(--bgcolor);
+}
+
+.row.container .group {
+    padding: 30px;
+}
+
+.row.container .title {
+    color: var(--second-text-color);
+    font-family: Montserrat;
+    font-weight: 800;
+    font-size: 10rem;
+   
+}
+
+.row.container .subtitle {
+   
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.row.container .body {
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 18px;
+     margin-bottom: 5rem;
+}
+
+.row.container .body .more {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: var(--red);
+    font-weight: bold;
+}
+
+.row.container .body .more:visited {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color:var(--red);
+}
+
+.row.container .footer {
+    display: flex;
+    margin-top: 8rem;
+    font-family: Poppins;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.row.container .footer .empresa {
+    margin-right: 2rem;
+    border-radius: 10px;
+    padding: 30px;
+    background: var(--yellow);
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    color:var(--second-text-color);
+    transition: 400ms ease-out;
+}
+.row.container .footer .empresa:hover{
+    background:var(--second-text-color);
+    color:  var(--yellow);
+}
+
+.row.container .footer .usuario {
+    padding: 30px;
+    background: var(--second-text-color);
+    border-radius: 10px;
+    font-family: Poppins;
+    font-weight: 600;
+    text-decoration: none;
+    color:var(--orange);
+    transition: 400ms ease-out;
+<<<<<<< HEAD
+}
+.row.container .footer .usuario:hover {
+    background:var(--orange);
+    color:var(--second-text-color);
+}
+img{
+    width: 40rem;
+=======
+}
+.row.container .footer .usuario:hover {
+    background:var(--orange);
+    color:var(--second-text-color);
+}
+img{
+    width: 40rem;
+}
+
+
+
+.group .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.group .form .form-group{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.group .form .bottom{
+    margin: 50px;
+}
+
+.createaccount{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 30px;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size:18px;
+    text-decoration: none;
+    background:  #264653;
+    color: white;
+    
+>>>>>>> 364a317c70a8a529b3db8a8c8c7e63b6e5eeac66
+}
