@@ -8,7 +8,7 @@ Tema: NOVOS CAMINHOS PARA A JUVENTUDE.
 ### Funcionalidades
 
 - Cadastro de jovens em busca do primeiro emprego e empresas que buscam diversidade
- ![enter image description here]('https://github.com/LucasMarrane/ccr291/blob/master/img/readme/criar%20conta.PNG')
+ ![enter image description here](https://github.com/LucasMarrane/ccr291/blob/master/img/readme/criar%20conta.PNG)
 - Cadastro de produtos
 ![enter image description here]()
 - Cadastro de Vagas
